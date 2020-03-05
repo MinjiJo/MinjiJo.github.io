@@ -1,0 +1,57 @@
+# Site Info
+title: Minji Jo's Devlog
+tagline: "리나의 개발로그"
+description: "공부하며 배운 것을 기록하는 블로그입니다"
+baseurl: ""
+url: http://minjijo.github.io
+logo: "/public/logo.png"
+
+# Site configurations
+plugins:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: "/blog/page:num"
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Minji Jo
+  description: 프로그래밍을 열심히 배우는 중인 개발자입니다.
+  contact:
+    # linkedin:  <hide>
+    github: https://github.com/minjijo
+    # facebook:  <hide>
+    # twitter:   <hide>
+    # weibo:     <hide>
+    email: mailto:story3697@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - "/"
+  Blog:
+    - "/blog/"
+    - { Categories: "/blog/categories/" }
+    - { Tags: "/blog/tags/" }
+  About:
+    - "/about/"
+  Github Project:
+    - "http://minjijo.github.io/"
+
+# Where are tags and categories displayed
+tag_page: "/blog/tags/"
+category_page: "/blog/categories/"
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: "" # leave blank if you don't want google analytics
+disqus_short_name: "minjijo" # leave blank if you don't want disqus
