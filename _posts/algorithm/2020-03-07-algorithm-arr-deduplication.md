@@ -3,7 +3,7 @@ layout: post
 title: PROGRAMMERS 같은 숫자는 싫어
 category: 알고리즘 문제풀이
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘]
+tags: [알고리즘, 자바]
 comments: true
 ---
 

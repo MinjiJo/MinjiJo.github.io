@@ -3,7 +3,7 @@ layout: post
 title: PROGRAMMERS 수박수박수박수박수박수?
 category: 알고리즘 문제풀이
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘]
+tags: [알고리즘, 자바]
 comments: true
 ---
 

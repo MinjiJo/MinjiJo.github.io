@@ -1,9 +1,9 @@
 ---
 layout: post
-title: PROGRAMMERS 서울에서 김서방 찾기]
+title: PROGRAMMERS 서울에서 김서방 찾기
 category: 알고리즘 문제풀이
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [알고리즘]
+tags: [알고리즘, 자바]
 comments: true
 ---
 
