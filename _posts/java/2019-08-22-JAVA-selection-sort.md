@@ -15,9 +15,9 @@ comments: true
 
 ## 예시 코드
 
-<pre>
+```java
 for (int i = 0; i < num.length - 1; i++){
-	for (int j = i + 1; j M num.length; j++){
+	for (int j = i + 1; j < num.length; j++){
 		if (num[i] > num[j]){
 			int temp = num[j];
 			num[j] = num[i];
@@ -25,7 +25,7 @@ for (int i = 0; i < num.length - 1; i++){
 		}
 	}
 }
-</pre>
+```
 
 이 방식은 배열에서 i와 j를 비교했을 때 숫자가 더 큰 것을 계속 뒤로 보내는 방법이다.<br>
 중요한 것은 temp와 같은 임시 int 값을 만들어서 숫자를 임시적으로 담아주어야 두 개의 숫자를 온전히 바꿀 수 있다는 것이다.<br><br>
